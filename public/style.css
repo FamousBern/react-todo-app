@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #05dddd;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.App-header {
+  background: #05ddb9;
+  padding: 20px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.App-header h1 {
+  font-weight: 400;
+  color: #f2f2f2;
+}
+
+.App-header h2 {
+  font-weight: 400;
+  color: #f2f2f2;
+  font-size: 12px;
+}
+
+.todoApp {
+  text-align: center;
+  align-items: center;
+  margin: 40px auto;
+  background: #ffffff;
+  width: 300px;
+  border-radius: 50px;
+}
+
+.form-control {
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  text-transform: capitalize;
+}
+
+.btn {
+  padding: 5px;
+  margin: 5px;
+  font-size: 1.5rem;
+  text-align: center;
+  background: #ffffff;
+  color: #05dddd;
+  height: 50px;
+  width: 50px;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+.btn:hover {
+  background: #05dddd;
+  color: #ffffff;
+}
+
+.tasks {
+  background: #ffffff;
+  width: 300px;
+  margin: 5px auto;
+  border-radius: 3px;
+  padding: 20px;
+}
+
+.btn-del {
+  padding: 5px;
+  margin: auto 20px;
+  font-size: 1.5rem;
+  text-align: right;
+  outline: none;
+  width: 30px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+.btn-del:hover {
+  color: #dd0558;
+}
+
+.item {
+  list-style: none;
+  padding: 20px auto;
+  margin: 5px auto;
+  background: #f2f2f2;
+  text-transform: initial;
+  border-radius: 0px 10px 10px 10px;
+}
+
+.con {
+  padding: 8px;
+  margin: 5px;
+  font-size: 10px;
+  text-align: center;
+  background: none;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  border: 1px solid #3efff5;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+.con:hover {
+  background: #05dddd;
+  color: #fff;
+}
